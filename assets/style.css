@@ -194,3 +194,8 @@ table.sortable th .si::after{content:"\2195";opacity:.45;font-size:.85em}table.s
 .hfacts{display:grid;grid-template-columns:max-content 1fr;gap:6px 14px;margin:.8em 0}.hfacts dt{font-weight:700}.hfacts dd{margin:0}.hfacts dd.unk{color:#6b7c78;font-style:italic}
 .hlinks{list-style:none;padding:0;margin:.6em 0;display:flex;flex-wrap:wrap;gap:8px}.hlinks a{display:inline-block;padding:.45em .8em;border:1px solid #b9dcd3;border-radius:999px;text-decoration:none;background:#f3faf8}
 @media (max-width:600px){.hfacts{grid-template-columns:1fr}.hfacts dd{margin-bottom:6px}}
+/* v5 */
+.monthlist{list-style:none;padding:0;margin:.3em 0 1em;columns:3 12em;column-gap:1.5em}
+.monthlist li{margin:.15em 0;break-inside:avoid}
+.lastchecked{border-top:1px solid #e3ece9;padding-top:.8em;margin-top:1.4em}
+a.unk{font-style:italic}
